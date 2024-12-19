@@ -27,4 +27,4 @@ It generates a response or completes a task using the combined query and support
 
 The RAG_local_model file was used to experiment with running the RAG model locally in the IDE. Information is in the ipynb file. In order to run the flask application with a (very simple, just for prototype purposes) user interface, make a virtual environment in your terminal. First, clone the repo to a local directory and open it in your IDE. In the virtual environment, install the requirements.txt file and run the app.py file. A URL is created in the terminal, which provides the opportunity to experiment with the user interface interactively. The script.js file in the static folder, and the index.html file in the templates folder configure the User Interface. Leave them in the same folders. 
 
-In order to get this to production, it should be containerized using docker (as example) and run on hardware resources that decrease latency, or be run in the cloud. 
+In order to get this to production, it should be containerized using docker (as example) and run on hardware resources that decrease latency, or be run in the cloud. The project should also be fined tuned a lot still. 
