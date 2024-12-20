@@ -1,5 +1,9 @@
 # VanGogh RAG Model
 
+- **First of all**: before running the llama 3.2 model, you should go to https://ollama.com/download and download the ollama model to your local directory. Afterwards, pip install -qU langchain_ollama should be run in the terminal.
+
+When the model is in your local directory, you should run: 'ollama run llama3.2' in your terminal, and the model should be ready to respond.
+
 A RAG (Retrieval-Augmented Generation) model is a hybrid approach in natural language processing (NLP) that combines retrieval and generation techniques. It is particularly effective in tasks like open-domain question answering, summarization, and information retrieval. Here's an overview:
 
 How RAG Works
