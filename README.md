@@ -6,7 +6,7 @@ When the model is in your local directory, you should run: 'ollama run llama3.2'
 
 A RAG (Retrieval-Augmented Generation) model is a hybrid approach in natural language processing (NLP) that combines retrieval and generation techniques. It is particularly effective in tasks like open-domain question answering, summarization, and information retrieval. Here's an overview:
 
-How RAG Works
+## How RAG Works
 
 data pre-processing: 
 First of all, the data is recursively split in user-defined chuncks, then embedded using an embedding model, then the embedded data is stored as vectors. Lastly, a retriever is able to extract the vectors (read: chunks of text) are most appropriate to provide an answer to the user query. 
